@@ -13,6 +13,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: get event info 
-        run: echo "${{toJson(github.event)}}"
+        run: echo '${{ toJson(github.event) }}'
 
       
